@@ -66,7 +66,7 @@ export const projects = [
     url: 'https://my-unsplash-images.netlify.app/',
     github: 'https://github.com/Manakora88/Unsplash-Project-in-Vite',
     title: 'Unsplash Images',
-    text: 'Strona treningowa, przygotowana w React, Vite.js. Wykorzystuje Unsplash API, Local Storage, ENV Variables. Posiada przełączanie motywów między ciemnym a jasnym. ',
+    text: 'Strona treningowa, przygotowana w React, Vite.js. Wykorzystuje Unsplash API, Local Storage, ENV Variables. Posiada przełączanie motywów między ciemnym a jasnym. Wiele pięknych zdjęć w zasięgu ręki. To czego poszukamy?',
   },
   {
     id: nanoid(),
@@ -74,6 +74,6 @@ export const projects = [
     url: 'https://react-cra-github-users.netlify.app',
     github: 'https://github.com/Manakora88/react-github-users',
     title: 'Github users search',
-    text: 'Strona treningowa, przygotowana w React, Create React App. Wykorzystuje  Github API, React Router, Fusion Charts oraz Auth0.',
+    text: 'Strona treningowa, przygotowana w React, Create React App. Wykorzystuje  Github API, React Router, Fusion Charts oraz Auth0. Barwne wykresy i wiele danych dotyczących uytkowników Githuba. Wyszukasz siebie? ',
   },
 ]
