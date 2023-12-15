@@ -1,10 +1,10 @@
 import { links } from '../data'
 const Navbar = () => {
   return (
-    <nav className="bg-rose-100">
+    <nav className="bg-red-100">
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-3xl font-bold">
-          crea<span className="text-rose-600">Toro</span>
+          crea<span className="text-red-600">Toro</span>
         </h2>
         <div className="flex gap-x-3">
           {links.map((link) => {

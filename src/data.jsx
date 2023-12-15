@@ -1,11 +1,12 @@
 import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact, FaFigma, FaWordpress } from 'react-icons/fa'
 import { SiAdobeillustrator } from 'react-icons/si'
-import img1 from './img/yummmenu.png'
+import img1 from './img/yummmenu.jpeg'
 import img2 from './img/unsplash.png'
 import img3 from './img/github.png'
 import img4 from './img/backroads.jpeg'
 import img5 from './img/tours.jpg'
+import img6 from './img/shopping.jpg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'start' },
@@ -18,37 +19,37 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
-    icon: <FaHtml5 className="h-16 w-16 text-rose-500" />,
+    icon: <FaHtml5 className="h-16 w-16 text-red-500" />,
     text: 'Posiadam wiedzę w zakresie HTML i CSS, umiejętnie tworzę atrakcyjne, nowoczesne i responsywne strony internetowe, zapewniające optymalne doświadczenia użytkowników.',
   },
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className="h-16 w-16 text-rose-500" />,
+    icon: <FaJs className="h-16 w-16 text-red-500" />,
     text: 'Przy wykorzystaniu JavaScript, tworzę interaktywne i dynamiczne aplikacje internetowe, charakteryzujące się płynnością w działaniu i funkcjonalnością.',
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className="h-16 w-16 text-rose-500" />,
+    icon: <FaReact className="h-16 w-16 text-red-500" />,
     text: 'React pozwala mi na tworzenie wydajnych i interaktywnych aplikacji front-endowych, ze szczególnym naciskiem na architekturę komponentową.',
   },
   {
     id: nanoid(),
     title: 'Adobe Illustrator',
-    icon: <SiAdobeillustrator className="h-16 w-16 text-rose-500" />,
+    icon: <SiAdobeillustrator className="h-16 w-16 text-red-500" />,
     text: 'W graficznym programie Adobe Illustrator wykonuję grafiki wektorowe, które wykorzystuję następnie zarówno w Internecie, jak i w druku. ',
   },
   {
     id: nanoid(),
     title: 'Figma',
-    icon: <FaFigma className="h-16 w-16 text-rose-500" />,
+    icon: <FaFigma className="h-16 w-16 text-red-500" />,
     text: 'W programie Figma projektuję aplikacje internetowe z ich pełną interaktywnością, do przetestowania przez Klienta.',
   },
   {
     id: nanoid(),
     title: 'Wordpress',
-    icon: <FaWordpress className="h-16 w-16 text-rose-500" />,
+    icon: <FaWordpress className="h-16 w-16 text-red-500" />,
     text: 'Tworzę strony internetowe z wykorzystaniem WordPress. Dzięki niemu moi Klienci mogą później łatwo sami zarządzać treścią na swoich stronach, blogach, czy w swoich sklepach.',
   },
 ]
@@ -93,5 +94,13 @@ export const projects = [
     github: 'https://github.com/Manakora88/Tours-Vite',
     title: 'Tours',
     text: 'Strona treningowa, przygotowana w React, Vite.js. Renderowanie i rerenderowanie danych z API oraz funkcja "Read more/Show Less". To jak, Irlandia czy Rzym?',
+  },
+  {
+    id: nanoid(),
+    img: img6,
+    url: 'https://shopping-list-vite.netlify.app/',
+    github: 'https://github.com/Manakora88/shopping-list-app',
+    title: 'Shopping list',
+    text: 'Strona treningowa, przygotowana w React, Vite.js.  Wykorzystany React-Toastify do powiadomień oraz Local Storage, by lista została zapamiętana, mimo odświeżania przeglądarki. Teraz już nie zapomnisz, co trzeba kupić.',
   },
 ]

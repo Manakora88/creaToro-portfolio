@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedin, FaBehanceSquare } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <section className="bg-rose-100 py-24">
+    <section className="bg-red-100 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <p className="mt-4 text-2xl text-slate-700 capitalize tracking-wide">
@@ -11,7 +11,7 @@ const Hero = () => {
           </p>
           <h1 className="text-7xl font-bold tracking-wider">Marzena</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-            Front-End Developer / Grafik
+            Front-End Developer / Graphic Designer
           </p>
           <p className="mt-2 text-lg text-slate-700 tracking-wide">
             Dobre pomysły wcielam w interaktywną rzeczywistość
