@@ -4,6 +4,8 @@ import { SiAdobeillustrator } from 'react-icons/si'
 import img1 from './img/yummmenu.png'
 import img2 from './img/unsplash.png'
 import img3 from './img/github.png'
+import img4 from './img/backroads.jpeg'
+import img5 from './img/tours.jpg'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'start' },
@@ -74,6 +76,22 @@ export const projects = [
     url: 'https://react-cra-github-users.netlify.app',
     github: 'https://github.com/Manakora88/react-github-users',
     title: 'Github users search',
-    text: 'Strona treningowa, przygotowana w React, Create React App. Wykorzystuje  Github API, React Router, Fusion Charts oraz Auth0. Barwne wykresy i wiele danych dotyczących uytkowników Githuba. Wyszukasz siebie? ',
+    text: 'Strona treningowa, przygotowana w React, Create React App. Wykorzystuje  Github API, React Router, Fusion Charts oraz Auth0. Barwne wykresy i wiele danych dotyczących użytkowników Githuba. Wyszukasz siebie? ',
+  },
+  {
+    id: nanoid(),
+    img: img4,
+    url: 'https://backroads-app-cra.netlify.app/',
+    github: 'https://github.com/Manakora88/BackRoads-App',
+    title: 'BackRoads',
+    text: 'Strona treningowa, przygotowana w React, Create React App. Prosta, estetyczna, atrakcyjna. Aż chciałoby się gdzieś pojechać...',
+  },
+  {
+    id: nanoid(),
+    img: img5,
+    url: 'https://tours-vite-app.netlify.app/',
+    github: 'https://github.com/Manakora88/Tours-Vite',
+    title: 'Tours',
+    text: 'Strona treningowa, przygotowana w React, Vite.js. Renderowanie i rerenderowanie danych z API oraz funkcja "Read more/Show Less". To jak, Irlandia czy Rzym?',
   },
 ]
